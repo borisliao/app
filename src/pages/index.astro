@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Index as ReactIndex } from '../layouts/Index';
+---
+
+<Layout>
+	<ReactIndex client:only="react" />
+</Layout>
